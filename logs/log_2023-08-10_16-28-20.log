@@ -1,0 +1,72 @@
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:20.757226
+Метод запроса: POST
+URL запроса: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+
+Статус код ответа: 200
+Ответ: {"status":"OK","place_id":"01f402b736b7b3b06a40b84941c7b534","scope":"APP","reference":"4eb07ba5090138d37935481ad89b2df44eb07ba5090138d37935481ad89b2df4","id":"4eb07ba5090138d37935481ad89b2df4"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:21 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:21.492474
+Метод запроса: GET
+URL запроса: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=01f402b736b7b3b06a40b84941c7b534
+
+Статус код ответа: 200
+Ответ: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:21 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '257', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:22.400100
+Метод запроса: PUT
+URL запроса: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+
+Статус код ответа: 200
+Ответ: {"msg":"Address successfully updated"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:22 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:23.362507
+Метод запроса: GET
+URL запроса: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=01f402b736b7b3b06a40b84941c7b534
+
+Статус код ответа: 200
+Ответ: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"23 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:23 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '252', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:24.178230
+Метод запроса: DELETE
+URL запроса: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+Статус код ответа: 200
+Ответ: {"status":"OK"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:24 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
+
+----------
+Тест: tests/test_google_maps_api.py::TestCreatePlace::test_create_new_place (call)
+Дата и время: 2023-08-10 16:28:25.097424
+Метод запроса: GET
+URL запроса: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=01f402b736b7b3b06a40b84941c7b534
+
+Статус код ответа: 404
+Ответ: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Заголовки ответа: {'Date': 'Thu, 10 Aug 2023 11:28:25 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+
+----------
